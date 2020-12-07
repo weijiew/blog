@@ -36,21 +36,25 @@
         target="_blank"
         style="color: var(--title-color);"
         ><font-awesome :icon="['fab', 'medium']"
-      /></a> -->
+      /></a>
       <a
         href="//twitter.com/realSpencerWoo"
         target="_blank"
         style="color: #1da1f2;"
         ><font-awesome :icon="['fab', 'twitter']"
       /></a>
+
       <a href="//weibo.com/spencerwoo" target="_blank" style="color: #E00;"
-        ><font-awesome :icon="['fab', 'weibo']"
+        ><font-awesome :icon="['fab', 'fa-zhihu']"
       /></a>
+
       <a href="//t.me/realSpencerWoo" target="_blank" style="color: #179cde;"
         ><font-awesome :icon="['fab', 'telegram']"
       /></a>
+ -->
+
       <a
-        href="//github.com/spencerwooo"
+        href="//github.com/weijiew"
         target="_blank"
         style="color: var(--title-color);"
         ><font-awesome :icon="['fab', 'github']"

@@ -1,3 +1,4 @@
+<!-- 
 ---
 title: '大数据导论期末总结'
 date: 2018-12-29
@@ -10,3 +11,5 @@ cover_image: "./images/ttrss-noteworthy.png"
 canonical_url: false
 description: '临近期末，写一些笔记。'
 ---
+
+ -->

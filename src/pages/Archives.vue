@@ -5,8 +5,8 @@
     <div class="posts content-box">
       <p style="opacity: 0.6;">
         <strong
-          >(｡･∀･)ﾉﾞ I have published a total of {{ totalPosts }} posts,
-          {{ totalWords }} words since 2019.</strong
+          I have published a total of {{ totalPosts }} posts,
+          {{ totalWords }} words since 2020.</strong
         >
       </p>
 

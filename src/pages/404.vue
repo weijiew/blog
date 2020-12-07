@@ -3,7 +3,7 @@
     <h1 class="not-found-title text-center space-bottom">404</h1>
     <div class="not-found-container">
       <p class="description">
-        🍌 Oh, no, not here.
+        🌌 Oops, 404 NotFound !
         <g-link to="/">Take me back home. ↩</g-link>
       </p>
       <g-image
