@@ -21,16 +21,19 @@
 
     <footer class="footer">
       <div class="footer__copyright">
-        Copyright ©2017 - {{ new Date().getFullYear() }}.
+        Copyright ©2020 - {{ new Date().getFullYear() }}.
       </div>
       <div class="footer__links">
         Runs on <font-awesome :icon="['fas', 'rocket']" />
         <a href="//gridsome.org">Gridsome</a> and
+
         <font-awesome :icon="['fas', 'heart']" />Love. Deployed on
+
         <font-awesome :icon="['fas', 'caret-square-up']" /><a
           href="//vercel.com/spencerwoo/blog"
           >Vercel</a
         >.
+
       </div>
       <div class="footer__links"></div>
       <div class="footer__links">
@@ -46,12 +49,14 @@
             src="https://img.shields.io/badge/Subscribe-RSS-ffa500?logo=rss"
             alt="rss"
         /></a>
+
         <a
           href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fblog.spencerwoo.com%2Fposts%2Findex.xml"
           ><img
             src="https://img.shields.io/badge/dynamic/json?label=Feedly&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dfeedly%26queryKey%3Dhttps%3A%2F%2Fblog.spencerwoo.com%2Fposts%2Findex.xml&labelColor=2bb24c&logoColor=white&color=282c34&logo=feedly&longCache=true"
             alt="feedly"
         /></a>
+
         <a
           href="https://www.inoreader.com/feed/https%3A%2F%2Fblog.spencerwoo.com%2Fposts%2Findex.xml"
           ><img

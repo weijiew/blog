@@ -21,37 +21,15 @@
       <g-link href="//weijiew.com" target="_blank"
         ><font-awesome :icon="['fas', 'id-badge']"
       /></g-link>
-      <g-link
-        href="//weijiew.com/posts/index.xml"
-        target="_blank"
-        style="color: #F5A623;"
-        ><font-awesome :icon="['fas', 'rss']"/></g-link
-      ><g-link to="/archives" style="color: var(--title-color);"
+
+
+      <g-link to="/archives" style="color: var(--title-color);"
         ><font-awesome :icon="['fas', 'archive']"/></g-link
-      ><g-link to="/friends" style="color: #06a878;"
-        ><font-awesome :icon="['fas', 'comment-dots']"/></g-link
-      >/
-      <!-- <a
-        href="//medium.com/spencerweekly"
-        target="_blank"
-        style="color: var(--title-color);"
-        ><font-awesome :icon="['fab', 'medium']"
-      /></a>
-      <a
-        href="//twitter.com/realSpencerWoo"
-        target="_blank"
-        style="color: #1da1f2;"
-        ><font-awesome :icon="['fab', 'twitter']"
-      /></a>
+      >
 
-      <a href="//weibo.com/spencerwoo" target="_blank" style="color: #E00;"
-        ><font-awesome :icon="['fab', 'fa-zhihu']"
-      /></a>
-
-      <a href="//t.me/realSpencerWoo" target="_blank" style="color: #179cde;"
-        ><font-awesome :icon="['fab', 'telegram']"
-      /></a>
- -->
+      
+      <g-link to="/friends" style="color: #06a878;"
+        ><font-awesome :icon="['fas', 'comment-dots']"/></g-link>
 
       <a
         href="//github.com/weijiew"
@@ -59,6 +37,7 @@
         style="color: var(--title-color);"
         ><font-awesome :icon="['fab', 'github']"
       /></a>
+      
     </p>
   </div>
 </template>

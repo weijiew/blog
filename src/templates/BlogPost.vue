@@ -22,7 +22,7 @@
 
       <div class="admonition admonition-warning" v-if="publishedDays >= 180">
         <p style="margin-bottom: 0;">
-          🌶 <strong>过期警告：</strong> 本页面距今已有
+          🌈 <strong>过期警告：</strong> 本页面距今已有
           {{ publishedDays }}
           天未更新，年久失修，内容可能有所偏颇，还请仔细甄别！
         </p>
