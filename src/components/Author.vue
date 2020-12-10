@@ -22,14 +22,16 @@
         ><font-awesome :icon="['fas', 'id-badge']"
       /></g-link>
 
-
       <g-link to="/archives" style="color: var(--title-color);"
         ><font-awesome :icon="['fas', 'archive']"/></g-link
       >
 
-      
-      <g-link to="/friends" style="color: #06a878;"
-        ><font-awesome :icon="['fas', 'comment-dots']"/></g-link>
+      <g-link to="/friends" style="color: #6c5ce7;"
+        ><font-awesome :icon="['fab', 'fly']"/></g-link>
+
+      <g-link to="//www.kaggle.com/w836678589" style="color: #0984e3;"
+        ><font-awesome :icon="['fab', 'kaggle']"/></g-link
+      >
 
       <a
         href="//github.com/weijiew"
@@ -38,6 +40,14 @@
         ><font-awesome :icon="['fab', 'github']"
       /></a>
       
+      <a
+        href="//www.zhihu.com/people/wei-jie-66-92"
+        target="_blank"
+        style="color: var(--title-color);"
+        ><font-awesome :icon="['fab', 'zhihu']"
+      /></a>
+
+
     </p>
   </div>
 </template>

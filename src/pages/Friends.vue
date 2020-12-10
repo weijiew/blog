@@ -1,31 +1,48 @@
 <template>
   <div>
-    <h1 class="friends-title text-center space-bottom">Friends & Guestbook</h1>
+    <h1 class="friends-title text-center space-bottom">阅读 & 思考</h1>
+    <div class="posts content-box">
 
-    <div class="friends-container text-center space-bottom">
-      <a
-        class="btn"
-        v-for="friend in friends"
-        :key="friend.id"
-        :href="friend.link"
-        target="_blank"
-        :style="friend.style"
-        ><g-image class="avatar" alt="avatar" :src="friend.avatar" blur="5" />
-        <span>{{ friend.id }}</span></a
-      >
-      <p class="note">
-        * I don't accept friend link requests from someone I don't know.
-      </p>
-    </div>
+<!-- >  <div class="read-container text-center space-bottom">
+<-->
+    1. Read
 
-    <div class="post-comments">
-      <div id="disqus_thread" />
     </div>
   </div>
 </template>
+<page-query>
+query Post ($id: ID!, $previousElement: ID!, $nextElement: ID!) {
+  post: post (id: $id) {
+    title
+    path
+    date (format: "MMMM D. YYYY")
+    timeToRead
+    cjkWordCount
+    cjkReadTime
+    tags {
+      id
+      title
+      path
+    }
+    description
+    published
+    content
+    cover_image (width: 1280, blur: 10)
+  }
+
+  previous: post (id: $previousElement) {
+    title
+    path
+  }
+
+  next: post(id: $nextElement) {
+    title
+    path
+  }
+}
+</page-query>
 
 <script>
-import DisqusJS from 'disqusjs'
 
 export default {
   metaInfo: {
@@ -33,83 +50,15 @@ export default {
   },
   data() {
     return {
-      friends: [
-        {
-          id: '@Felinae',
-          link: 'https://code.felinae98.cn/',
-          avatar: 'https://avatars3.githubusercontent.com/u/23295345?s=160',
-          style: 'color: #fff; background-color: #473922',
-        },
-        {
-          id: '@agnoCJY',
-          link: 'https://jychuuu.com/',
-          avatar: 'https://avatars1.githubusercontent.com/u/46088026?s=160',
-          style: 'color: #fff; background-color: #191919',
-        },
-        {
-          id: '@TenkeySeven',
-          link: 'https://blog.tenkeyseven.com/',
-          avatar: 'https://avatars2.githubusercontent.com/u/33371927?s=160',
-          style: 'color: #fff; background-color: #b59672',
-        },
-        {
-          id: '@Silvester',
-          link: 'https://silvester.wang/',
-          avatar: 'https://avatars0.githubusercontent.com/u/34436920?s=160',
-          style: 'color: #fff; background-color: #595058',
-        },
-        {
-          id: '@ash0ne',
-          link: 'https://blog.ash0ne.com/',
-          avatar: 'https://avatars3.githubusercontent.com/u/28522665?s=160',
-          style: 'color: #fff; background-color: #9f8cd1',
-        },
-        {
-          id: '@FKY',
-          link: 'http://blog.fkynjyq.com/',
-          avatar: 'https://avatars2.githubusercontent.com/u/16451516?s=160',
-          style: 'color: #fff; background-color: #005240',
-        },
-        {
-          id: '@idealclover',
-          link: 'https://idealclover.top/',
-          avatar: 'https://avatars2.githubusercontent.com/u/24428416?s=160',
-          style: 'color: #fff; background-color: #487747',
-        },
-        {
-          id: '@kastnerorz',
-          link: 'https://github.com/kastnerorz',
-          avatar: 'https://avatars3.githubusercontent.com/u/26199342?s=160',
-          style: 'color: #fff; background-color: #26498e',
-        },
-        {
-          id: '@Patrick Wu',
-          link: 'https://patrickwu.space/',
-          avatar: 'https://avatars0.githubusercontent.com/u/15316889?s=160',
-          style: 'color: #fff; background-color: #61a3cf',
-        },
-      ],
-    }
-  },
-  mounted() {
-    // Initialize post comment by DisqusJS
-    if (process.env.NODE_ENV === 'production') {
-      const disqusjs = new DisqusJS({
-        shortname: 'spencerwoo',
-        siteName: "Spencer's Blog",
-        identifier: 'spencer-blog-guestbook',
-        apikey:
-          'F6hHeFWtfmWW5n4RVf4hjgazRj8y0ERfQdeQPIGKr79yajw6glnmTqrgYHTC8XaS',
-        admin: 'spencerwoo',
-        adminLabel: 'Admin',
-      })
     }
   },
 }
+
 </script>
 
 <style lang="scss">
-.friends-container {
+
+.read-container {
   max-width: var(--content-width);
   margin-left: auto;
   margin-right: auto;
@@ -147,10 +96,4 @@ export default {
   }
 }
 
-.post-comments {
-  padding: calc(var(--space) / 2);
-  max-width: var(--content-width);
-  margin: 0 auto;
-  font-family: var(--base-font-family);
-}
 </style>

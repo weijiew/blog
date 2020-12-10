@@ -14,6 +14,7 @@
 
     <!-- Pagination -->
     <Pager :info="$page.posts.pageInfo" />
+    
   </div>
 </template>
 

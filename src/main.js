@@ -24,19 +24,29 @@ import {
   faArchive,
   faSpinner,
 } from '@fortawesome/free-solid-svg-icons'
+
 import {
   faGithub,
   faTwitter,
+  faKaggle,
+  faFly,
   faMedium,
   faWeibo,
   faTelegram,
+  faZhihu,
+  faCreativeCommonsNc,
 } from '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+
 
 config.autoAddCss = false
 library.add(
   faGithub,
+  faKaggle,
+  faCreativeCommonsNc,
+  faZhihu,
   faTwitter,
+  faFly,
   faHome,
   faRss,
   faIdBadge,

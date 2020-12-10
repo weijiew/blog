@@ -3,6 +3,7 @@
     <h1 class="text-center space-bottom">Archives</h1>
 
     <div class="posts content-box">
+    
       <p style="opacity: 0.6;">
         <strong
           I have published a total of {{ totalPosts }} posts,
@@ -13,7 +14,8 @@
       <div v-for="year in backwardsTimeKey" :key="year">
         <h5>{{ year }}</h5>
         <p v-for="p in timeline[year]" :key="p.id">
-          <span>{{
+        
+          <span>🎯 {{
             new Date(p.date)
               .toLocaleString('en-US', {
                 month: 'short',
@@ -21,7 +23,7 @@
               })
               .replace(' ', '.')
           }}</span
-          ><g-link :to="p.path">{{ p.title }}</g-link>
+          > <g-link :to="p.path">{{ p.title }}</g-link>
         </p>
       </div>
     </div>

@@ -27,7 +27,7 @@
         Runs on <font-awesome :icon="['fas', 'rocket']" />
         <a href="//gridsome.org">Gridsome</a> and
 
-        <font-awesome :icon="['fas', 'heart']" />Love. Deployed on
+        <font-awesome :icon="['fas', 'Zhihu']" />Love. Deployed on
 
         <font-awesome :icon="['fas', 'caret-square-up']" /><a
           href="//vercel.com/spencerwoo/blog"
