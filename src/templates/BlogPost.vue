@@ -40,14 +40,14 @@
           v-if="$page.previous"
           :href="$page.previous.path"
           style="float: left;"
-          >&#9664; {{ $page.previous.title }}</a
+          >🌼 {{ $page.previous.title }}</a
         >
         <a
           class="navlink"
           v-if="$page.next"
           :href="$page.next.path"
           style="float: right;"
-          >{{ $page.next.title }} &#9654;</a
+          >{{ $page.next.title }} 🎯</a
         >
       </div>
     </div>

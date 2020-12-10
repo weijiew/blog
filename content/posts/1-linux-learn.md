@@ -4,7 +4,7 @@ date: 2019-06-13
 published: true
 slug: linux-learn
 tags: ['linux']
-cover_image: "./images/vino-li--cMLjr5KS-k-unsplash.jpg"
+cover_image: "./images/p1.jpg"
 canonical_url: false
 description: 'linux 学习记录'
 ---

@@ -4,7 +4,7 @@ date: 2018-12-29
 published: true
 slug: big-data-summary
 tags: ['BigData']
-cover_image: "./images/sacha-t-sas-gmD1z9M4INo-unsplash.jpg"
+cover_image: "./images/p0.jpg"
 canonical_url: false
 description: '临近期末，写一些笔记。'
 ---
@@ -18,6 +18,7 @@ description: '临近期末，写一些笔记。'
 2. 4v模型：数量（volume）种类（variety）速度（velocity）价值（value）
 3. 结构类型：结构化、半结构化，准结构化，非结构化。
 4. 发展：硬件廉价，技术进步。
+
 
 ## 2.0 可视化
 
