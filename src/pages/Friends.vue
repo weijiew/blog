@@ -10,37 +10,6 @@
     </div>
   </div>
 </template>
-<page-query>
-query Post ($id: ID!, $previousElement: ID!, $nextElement: ID!) {
-  post: post (id: $id) {
-    title
-    path
-    date (format: "MMMM D. YYYY")
-    timeToRead
-    cjkWordCount
-    cjkReadTime
-    tags {
-      id
-      title
-      path
-    }
-    description
-    published
-    content
-    cover_image (width: 1280, blur: 10)
-  }
-
-  previous: post (id: $previousElement) {
-    title
-    path
-  }
-
-  next: post(id: $nextElement) {
-    title
-    path
-  }
-}
-</page-query>
 
 <script>
 
