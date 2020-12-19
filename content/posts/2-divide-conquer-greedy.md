@@ -2,7 +2,7 @@
 title: '分治-动规-贪心总结'
 date: 2020-04-09
 published: true
-slug: divide-conquer-greedy
+slug: 2-divide-conquer-greedy
 tags: ['算法']
 cover_image: "./images/p2.jpg"
 canonical_url: false

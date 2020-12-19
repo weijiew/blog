@@ -2,7 +2,7 @@
 title: 'Pythonic'
 date: 2020-07-11
 published: true
-slug: pythonic-summary
+slug: 6-pythonic-summary
 tags: ['python']
 cover_image: "./images/p6.jpg"
 canonical_url: false

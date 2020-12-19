@@ -2,7 +2,7 @@
 title: 'JavaSE 总结'
 date: 2020-12-10
 published: true
-slug: javase-summary
+slug: 11-javase-summary
 tags: ['BigData']
 cover_image: "./images/p11.jpg"
 canonical_url: false

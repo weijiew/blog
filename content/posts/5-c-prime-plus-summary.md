@@ -2,7 +2,7 @@
 title: '《C Prime Plus》阅读笔记'
 date: 2020-07-11
 published: true
-slug: c-prime-plus-summary
+slug: 5-c-prime-plus-summary
 tags: ['c']
 cover_image: "./images/p5.jpg"
 canonical_url: false

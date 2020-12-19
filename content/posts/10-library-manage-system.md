@@ -2,7 +2,7 @@
 title: '图书管理系统-项目总结'
 date: 2020-11-19
 published: true
-slug: library-manage-system
+slug: 10-library-manage-system
 tags: ['BigData']
 cover_image: "./images/p10.jpg"
 canonical_url: false

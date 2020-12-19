@@ -2,7 +2,7 @@
 title: '爬取豆瓣电影 Top 250'
 date: 2020-06-26
 published: true
-slug: spider-movie
+slug: 4-spider-movie
 tags: ['爬虫']
 cover_image: "./images/p4.jpg"
 canonical_url: false

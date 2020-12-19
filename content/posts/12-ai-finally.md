@@ -2,9 +2,9 @@
 title: '机器学习对人类学习的影响'
 date: 2020-12-15
 published: true
-slug: ai-finally
+slug: 12-ai-finally
 tags: ['机器学习']
-cover_image: "./images/p13.jpg"
+cover_image: "./images/p12.jpg"
 canonical_url: false
 description: '此文为人工智能的结课作业。'
 ---

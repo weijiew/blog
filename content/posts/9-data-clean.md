@@ -2,7 +2,7 @@
 title: '一次数据清洗的记录'
 date: 2020-10-04
 published: true
-slug: data-clean
+slug: 9-data-clean
 tags: ['总结']
 cover_image: "./images/p9.jpg"
 canonical_url: false

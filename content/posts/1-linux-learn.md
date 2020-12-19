@@ -2,7 +2,7 @@
 title: 'Linux-总结'
 date: 2019-06-13
 published: true
-slug: linux-learn
+slug: 1-linux-learn
 tags: ['linux']
 cover_image: "./images/p1.jpg"
 canonical_url: false

@@ -2,7 +2,7 @@
 title: '阅读摘录'
 date: 2020-01-01
 published: true
-slug: read-book
+slug: -1-read-book
 tags: ['阅读']
 cover_image: "./images/p-read-book.jpg"
 canonical_url: false

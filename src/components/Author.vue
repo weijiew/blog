@@ -23,15 +23,10 @@
       /></g-link>
 
       <g-link to="/archives" style="color: var(--title-color);"
-        ><font-awesome :icon="['fas', 'archive']"/></g-link
-      >
+        ><font-awesome :icon="['fas', 'archive']"/></g-link>
 
       <g-link to="/friends" style="color: #6c5ce7;"
         ><font-awesome :icon="['fab', 'fly']"/></g-link>
-
-      <g-link to="//www.kaggle.com/w836678589" style="color: #0984e3;"
-        ><font-awesome :icon="['fab', 'kaggle']"/></g-link
-      >
 
       <a
         href="//github.com/weijiew"
@@ -46,7 +41,6 @@
         style="color: var(--title-color);"
         ><font-awesome :icon="['fab', 'zhihu']"
       /></a>
-
 
     </p>
   </div>

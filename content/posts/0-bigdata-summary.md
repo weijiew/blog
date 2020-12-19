@@ -2,7 +2,7 @@
 title: '大数据导论期末总结'
 date: 2018-12-29
 published: true
-slug: big-data-summary
+slug: 0-bigdata-summary
 tags: ['BigData']
 cover_image: "./images/p0.jpg"
 canonical_url: false

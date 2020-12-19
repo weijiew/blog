@@ -2,7 +2,7 @@
 title: 'Missing Semester'
 date: 2020-08-15
 published: true
-slug: missing-semester
+slug: 8-missing-semester
 tags: ['Course']
 cover_image: "./images/p8.jpg"
 canonical_url: false

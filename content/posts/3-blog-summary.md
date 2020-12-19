@@ -2,7 +2,7 @@
 title: '关于 blog'
 date: 2020-05-20
 published: true
-slug: blog-summary
+slug: 3-blog-summary
 tags: ['blog']
 cover_image: "./images/p3.jpg"
 canonical_url: false

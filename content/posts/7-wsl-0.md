@@ -2,7 +2,7 @@
 title: 'WSL 配置 and Terminal 美化'
 date: 2020-08-11
 published: true
-slug: ttrss-noteworthy
+slug: 7-wsl-0
 tags: ['WSL']
 cover_image: "./images/p7.jpg"
 canonical_url: false
