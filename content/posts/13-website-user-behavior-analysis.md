@@ -1,7 +1,7 @@
 ---
 title: '网站用户行为分析'
 date: 2020-12-19
-published: false
+published: true
 slug: 13-website-user-behavior-analysis
 tags: ['大数据']
 cover_image: "./images/p13.jpg"

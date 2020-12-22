@@ -17,15 +17,15 @@ description: '临近期末，写一些笔记。'
 
 然后发现 VirtualBox 吐槽的人比较多，并且 VNWare 比较容易破解，于是就去找教程开始了破解安装之旅。
 
-事实也确实如此。因为我大一就是这样一路走下来的。并且安装 VMware + Ubuntu 步骤比较繁琐，需要不少时间的摸索。
+事实也确实如此。因为我大一就是这样一路走下来的，当时大概花了一个星期才装好😭。并且安装 VMware + Ubuntu 步骤比较繁琐，需要不少时间的摸索。
 
 现在多了一个选择 WSL (Windows Subsystem for Linux) 这个东西可以简单粗暴的理解在 Windows 系统中内嵌了一个 Linux 子系统。
 
-那和虚拟机有什么区别？最大的区别就是性能的开销了，可以不需要耗费太大性能的前提下使用 Linux 系统。林林总总还有许多方便的功能，例如可以在 Linux 中直接运行 exe 文件。
+那和虚拟机有什么区别？最大的区别就是性能的开销了，可以不需要耗费太大性能的前提下使用 Linux 系统。林林总总还有许多方便的功能，例如可以在 Linux 中直接运行 exe 文件。我觉得最吸引我的地方就是安装方便，开箱即用。
 
 当然除此之外，我认为最方便的还是配置的简化，安装 Ubuntu 只花费了几分钟的时间。使用起来也很方便，而 VMWare 打开关闭则有明显的停顿。
 
-关于 WSL [微软的文档](https://docs.microsoft.com/en-us/windows/wsl/)有更为详细的解释。
+关于 WSL [微软的文档](https://docs.microsoft.com/en-us/windows/wsl/) 有更为详细的解释。
 
 # 安装
 
@@ -34,6 +34,7 @@ description: '临近期末，写一些笔记。'
 * Windows Terminal 是微软提供的终端工具，可以直接在微软应用商店搜索 Terminal 。
 
 <div align="center"><img src="https://gitee.com/weijiew/pic/raw/master/img/20200811220045.png"/></div>
+
 
 **Terminal** 和 **bash** 是不同的，前者是终端，也就是常见的黑框框。而 bash 则是命令行解释器，在终端中敲入命令，由 bash 来解释。在终端中通过 bash 来和操作系统进行交互。
 
@@ -119,7 +120,7 @@ Ubunut 实际上是默认安装在了 C 盘中，由于我不希望在 C 盘中�
 
 ## 端口
 
-二者公用端口，但是同等条件下 win 的优先级更高，毕竟是人家的地盘。
+二者公用端口，但是同等条件下 win 的优先级更高，毕竟是人家的地盘。但因为共用端口也存在很大的问题！
 
 ## SSH
 
