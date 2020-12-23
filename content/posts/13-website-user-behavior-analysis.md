@@ -37,72 +37,72 @@ description: '大数据技术结课作业'
 
 1. 虚拟机安装成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.5woob58qbj80.png)
+![image-1](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.5woob58qbj80.png)
 
 2. Ubuntu 16.04 安装成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.1icldwmlfqow.png)
+![image-2](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.1icldwmlfqow.png)
 
 3. WSL 访问虚拟机
 
 为方便使用，我采用 WSL 终端来连接虚拟机。其中 WSL 为 Ubuntu 20.04 LTS 。
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.4s4qzbllrs00.png)
+![image-3](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.4s4qzbllrs00.png)
 
 4. JDK 安装成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.51dnmj6djvg0.png)
+![image-4](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.51dnmj6djvg0.png)
 
 5. Hadoop 2.7.1 安装成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.7l9gf0n7w640.png)
+![image-5](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.7l9gf0n7w640.png)
 
 启动成功：
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.12pmzy9rzfn.png)
+![image-6](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.12pmzy9rzfn.png)
 
 6. Mysql 安装成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.2rbfv7yuj100.png)
+![image-7](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.2rbfv7yuj100.png)
 
 7. Hbase 安装并启动成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.3vglhn5hrtq0.png)
+![image-8](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.3vglhn5hrtq0.png)
 
 8. Hive 安装成功
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.7f4sqgrp8z40.png)
+![image-9](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.7f4sqgrp8z40.png)
 
 9. Sqoop 安装并使用 
 
 Sqoop 可以运行并成功访问 Mysql
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.6qxl6xwr77w0.png)
+![image-10](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.6qxl6xwr77w0.png)
 
 
 ### 2.0 导入数据集
 
 2.1 首先将数据集导入系统中：
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.3ym4j8127bg0.png)
+![image-11](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.3ym4j8127bg0.png)
 
 2.2 将数据上传至 Hadoop 的 HDFS 中：
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.2fsm115njy80.png)
+![image-12](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.2fsm115njy80.png)
 
 2.3 将数据从 HDFS 中导入 Hive 中，并通过查询语句查看部分数据，结果如下：
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.74epy7ftr1k0.png)
+![image-13](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.74epy7ftr1k0.png)
 
 ### 3.0 Hive 数据分析
 
 3.1 查看该数据库中的所有表格以及字段
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.34cfajwde6y0.png)
+![image-14](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.34cfajwde6y0.png)
 
 3.2 查看前 20 位用户购买商品时的时间和商品种类
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.773wkmue75k0.png)
+![image-15](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.773wkmue75k0.png)
 
 3.3 用户行为分析
 
@@ -133,33 +133,33 @@ Sqoop 可以运行并成功访问 Mysql
 
 此时数据已经进入 Hive 中，下一步是采用 Sqoop 将数据从 Hive 中导入 Mysql 中，结果如下：
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.3ztxxdt3fd00.png)
+![image-16](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.3ztxxdt3fd00.png)
 
 数据从 Mysql 中成功导入 HBase 。
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.t1425qj35m8.png)
+![image-17](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.t1425qj35m8.png)
 
 ### 5.0 利用R进行数据可视化分析
 
 R 语言连接 Mysql 成功！
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.5fgxxwfxjb00.png)
+![image-18](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.5fgxxwfxjb00.png)
 
 用户行为分布情况如下：
 
-![a2](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/a2.4npqa811ery0.png)
+![image-19](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/a2.4npqa811ery0.png)
 
 不同类别的商品消费分布如下：
 
-![a3](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/a3.5k6sk11jnr00.png)
+![image-20](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/a3.5k6sk11jnr00.png)
 
 11，12 月用户行为分布：
 
-![a4](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/a4.8cj09bn03yg.png)
+![image-21](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/a4.8cj09bn03yg.png)
 
 不同省份的销售情况分布：
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.30okxmtn5ee0.png)
+![image-22](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.30okxmtn5ee0.png)
 
 ## 出现的问题和解决方案
 
@@ -172,7 +172,7 @@ R 语言连接 Mysql 成功！
 5. 改为 3.2.1 的 R 后发现 ggplot2 又无法安装。
 6. 由于无法下载 3.3.2 的 R ，于是开始本地编译源代码，编译之时依旧缺少依赖，经过努力最终安装成功。
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.674ewf9lepg0.png)
+![image-23](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.674ewf9lepg0.png)
 
 7. 编译源码之时还存在一个问题，`g++: internal compiler error: Killed (program cc1plus)`
 
@@ -180,7 +180,7 @@ R 语言连接 Mysql 成功！
 
 8. R 3.3.2 在安装 devtools 和 ggplot2 时虽然下载缓慢但是还好安装上了，但是字体存在问题，无法渲染字体o
 
-![image](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.22seykq36c9s.png)
+![image-24](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/image.22seykq36c9s.png)
 
 9. 于是我开始了修改字体 ...
 
@@ -193,6 +193,3 @@ R 语言连接 Mysql 成功！
 我认为深入了解 Hadoop ... 等技术栈内部的实现原理比较有意义，甚至自己做出来一个玩具级别的 hadoop 学到的东西也会非常多。
 
 该项目令我明白的了大数据的业务流程！
-
-
-
