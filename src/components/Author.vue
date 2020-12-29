@@ -14,7 +14,7 @@
     </h1>
 
     <p class="author__intro">
-      每一个不曾起舞的日子都是对生命的浪费！
+      今天做不成的，明天也不会做好！
     </p>
 
     <p class="author__links">

@@ -10,7 +10,7 @@ description: '大数据技术知识点总结'
 ---
 
 :::note
-林子雨老师的大数据课程笔记，地址：https://www.icourse163.org/learn/XMU-1002335004
+林子雨老师的大数据课程，地址：https://www.icourse163.org/learn/XMU-1002335004
 :::
 
 # 1.0 大数据概述
