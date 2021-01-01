@@ -14,7 +14,7 @@
     </h1>
 
     <p class="author__intro">
-      今天做不成的，明天也不会做好！
+      一蓑烟雨任平生。
     </p>
 
     <p class="author__links">
