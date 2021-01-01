@@ -25,7 +25,7 @@
       <g-link to="/archives" style="color: var(--title-color);"
         ><font-awesome :icon="['fas', 'archive']"/></g-link>
 
-      <g-link to="/friends" style="color: #6c5ce7;"
+      <g-link to="https://blog.weijiew.com/2020/01/1-read-book/" style="color: #6c5ce7;"
         ><font-awesome :icon="['fab', 'fly']"/></g-link>
 
       <a
