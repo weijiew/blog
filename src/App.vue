@@ -21,7 +21,7 @@
 
     <footer class="footer">
       <div class="footer__copyright">
-        Copyright ©2019 - {{ new Date().getFullYear() }}.
+        Copyright ©2018 - {{ new Date().getFullYear() }}.
       </div>
 
       <div class="footer__links">
@@ -34,8 +34,7 @@
         >.
 
       </div>
-        <a href="https://weijiew.com"><img src="https://img.shields.io/badge/website-weijiew-273c75?&style=for-the-badge&labelColor=FC427B" alt="copyright"/></a>
-        <a href="mailto:jiewei314@gmail.com"><img src="https://img.shields.io/badge/email-jiewei314@gmail.com-blueviolet?style=for-the-badge&logo=google&color=fd79a8" alt="copyright"/></a>
+ 
     </footer>
   </div>
 </template>
