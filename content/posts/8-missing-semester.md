@@ -43,7 +43,8 @@ description: '最近发现了一门课，这个课程的名称是缺失的课程
 WSL 下载安装的话几分钟就好了。
 
 我之前写过一篇 WSL 的配置指南，在我的博客里面，可以参考使用。
-文章地址：https://weijiew.com/22/
+
+文章地址：https://blog.weijiew.com/2020/08/7-wsl-0/
 
 # 总结
 
