@@ -3,7 +3,7 @@ title: 'Missing Semester'
 date: 2020-08-15
 published: true
 slug: 8-missing-semester
-tags: ['Course']
+tags: ['总结']
 cover_image: "./images/p8.jpg"
 canonical_url: false
 description: '最近发现了一门课，这个课程的名称是缺失的课程，也就课堂上学不到的知识，是讲如何使用工具的。'

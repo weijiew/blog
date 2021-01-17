@@ -3,7 +3,7 @@ title: 'JavaSE 总结'
 date: 2020-12-10
 published: true
 slug: 11-javase-summary
-tags: ['BigData']
+tags: ['Java']
 cover_image: "./images/p11.jpg"
 canonical_url: false
 description: '这篇文章最初是看《Java 核心技术卷》所记的笔记，本来打算删除。但是最近又看到了极客时间的一套 Java 课程，加上正在整理 blog 于是在原文的基础上重写添加了一些内容。'
@@ -28,7 +28,6 @@ XML是一种描述数据的方式，任何语言都可以处理XML数据，而Ja
 Java 区分大小写。
 
 Java中Boolean 不能将 0 定义位false ，1 定义为真，而 c++ 可以混用。
-
 # 1.0 关键字和标识符
 
 ## 1.1 标识符
@@ -276,4 +275,8 @@ maven 分为服务器端和本地两部分。所有发布的 Jar 包都会发布
 
 JRE是Java运行时的开发环境，而JDK则是Java 的开发工具包，JDK包含JRE。
 如果只是运行java程序，装JRE即可，如果编写Java程序，装JDK。
+
+# 18.0 异常
+
+Error 和 Exception 的区别：后者是可以修复的，前者难以修复。
 

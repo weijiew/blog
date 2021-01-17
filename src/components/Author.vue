@@ -14,7 +14,7 @@
     </h1>
 
     <p class="author__intro">
-      一蓑烟雨任平生。
+      来者犹可追
     </p>
 
     <p class="author__links">

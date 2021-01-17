@@ -3,7 +3,7 @@ title: '图书管理系统-项目总结'
 date: 2020-11-19
 published: true
 slug: 10-library-manage-system
-tags: ['BigData']
+tags: ['总结']
 cover_image: "./images/p10.jpg"
 canonical_url: false
 description: '这是我第一次一个人来做的系统，之前所作的大都是和别人合作。这次经历暴漏出来很多问题，记录一下。'
