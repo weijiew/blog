@@ -1,3 +1,3 @@
 git add .
-git commit -m "update LICENSE"
+git commit -m "DELETE 18"
 git push -u origin master
