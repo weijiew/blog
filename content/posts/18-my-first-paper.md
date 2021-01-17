@@ -1,7 +1,7 @@
 ---
 title: '论文翻译'
 date: 2021-01-17
-published: true
+published: false
 slug: 18-my-first-paper
 tags: ['总结','翻译']
 cover_image: "./images/p18.jpg"
@@ -14,6 +14,5 @@ description: '论文翻译'
 
 # 比较不同计算方法下陆地激光提取的茎秆直径数据
 
-Comparison of Various Numerical Calculation Methods for Stem Diameter Retrieval using Terrestrial Laser Data
 
-> 概述：
+> 综述：

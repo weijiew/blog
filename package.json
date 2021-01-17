@@ -5,7 +5,8 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "prettier": "prettier --write **/*.{ts,js,css,html,vue}"
+    "prettier": "prettier --write **/*.{ts,js,css,html,vue}",
+    "deploy": "sh g.sh"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
