@@ -1,3 +1,3 @@
 git add .
-git commit -m "DELETE 18"
+git commit -m "update 18"
 git push -u origin master
