@@ -1,3 +1,3 @@
 git add .
-git commit -m "update 16"
+git commit -m "update hit analysis"
 git push -u origin master

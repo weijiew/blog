@@ -23,7 +23,7 @@ export default {
   },
   mounted() {
     // Fetch page hit count via API: https://spencer-hit-count.vercel.app/api/ga
-    // const baseUrl = 'https://spencer-hit-count.vercel.app/api/ga'
+    const baseUrl = 'https://ga-hit-count-serverless.weijiew.vercel.app/api/ga'
     this.$http.get(`${baseUrl}?page=${this.post.path}`).then(res => {
       if (res.data.length === 1) {
         this.hitCount = res.data[0].hit
