@@ -1,5 +1,5 @@
 ---
-title: '比较不同数值计算方法下激光扫描的茎秆直径数据'
+title: '比较不同数值计算方法下激光扫描的茎粗检索数据'
 date: 2021-01-17
 published: false
 slug: 18-my-first-paper
@@ -13,7 +13,7 @@ description: '论文翻译'
 为了更好的理解，我打算翻译一遍这一篇论文。
 :::
 
-# 比较不同数值计算方法下使用激光扫描的茎粗检索数据
+# 比较不同数值计算方法下激光扫描的茎粗检索数据
 
 <a href="License: CC BY-SA 4.0"><img src="https://img.shields.io/github/license/weijiew/codestep?color=265ca2&labelColor=212c42)](http://creativecommons.org/licenses/by-sa/4.0/" alt="copyright"/></a>
 
@@ -24,8 +24,8 @@ description: '论文翻译'
 
 # 1. 介绍
 
+三维激光扫描（TLS）已经形成了一种无损获取三维森林结构属性的精确手段。它有能力来获得毫米级别的 3D 几何结构的树木，并且该方法超越的传统的测量工具。
 
-Terrestrial laser scanning (TLS) has emerged as an accurate means for non-destructively deriving three-dimensional (3D) forest structural attributes. It has a capacity to obtain the 3D geometrical structure of a tree in a millimeter-level, that is beyond the ability of traditional measurement tools. 
 
 After two decades of research, the tree attributes that can be automatically retrieved from TLS data include not only widely used forest inventories, but also those that are not measurable using
 conventional tools. 
