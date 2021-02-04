@@ -8,7 +8,11 @@ cover_image: "./images/p20.jpg"
 canonical_url: false
 description: '温故知新（C++）'
 ---
+:::note
+最近需要用到 C++ ，花了三天时间把[黑马的这套课](https://www.bilibili.com/video/BV1et411b73Z)看完了。讲的确实很好，循序渐进。要是大一就能看到这个该多好。顺便把里面的项目敲了一遍，[repo](https://github.com/weijiew/cpp-study-cases)
 
+最后的那两个项目不想做了，后续有时间再做吧。最近 C++ 学的有点过头，先缓缓。
+:::
 ## 1. 静态类型
 
 C++ 是静态类型的语言，类型检查发生在编译期，所以变量必须声明数据类型。与之相对应的是 Python，动态数据类型，直到程序运行时才能确定数据类型。
