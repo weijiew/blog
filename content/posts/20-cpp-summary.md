@@ -6,7 +6,7 @@ slug: 20-cpp-summary
 tags: ['C++']
 cover_image: "./images/p20.jpg"
 canonical_url: false
-description: '温故知新（C++）'
+description: '温故知新'
 ---
 :::note
 最近需要用到 C++ ，花了三天时间把[黑马的这套课](https://www.bilibili.com/video/BV1et411b73Z)看完了。
