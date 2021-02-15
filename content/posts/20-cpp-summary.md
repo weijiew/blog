@@ -11,9 +11,7 @@ description: '温故知新'
 :::note
 最近需要用到 C++ ，整理回顾了一下。
 
-以下内容为第一次阅读《C++ Prime Plus》所记的笔记。
-
-做了部分删减，前十一章的内容。内容有点混乱。仅供参考！
+以下内容为第一次阅读《C++ Prime Plus》所记的笔记。做了部分删减，前十一章的内容。内容有点混乱。仅供参考！
 
 除此之外还有这个[视频](https://www.bilibili.com/video/BV1et411b73Z)，看了三天。顺便把案例写了一遍，[repo](https://github.com/weijiew/cpp-study-cases)。
 
