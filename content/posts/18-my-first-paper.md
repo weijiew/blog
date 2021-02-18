@@ -17,7 +17,6 @@ description: '论文翻译'
 
 # 比较不同数值计算方法下激光扫描的茎粗检索数据
 
-<a href="License: CC BY-SA 4.0"><img src="https://img.shields.io/github/license/weijiew/codestep?color=265ca2&labelColor=212c42)](http://creativecommons.org/licenses/by-sa/4.0/" alt="copyright"/></a>
 
 > 摘要：地面激光扫描仪（TLS）为森林调查提供了一个毫米级别的测量工具。
 > 但是样本扫描茎杆直径检索的精度没有达到一个令人信服的级别。

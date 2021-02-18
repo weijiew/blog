@@ -25,14 +25,6 @@ description: '动手写一个编译器！'
 
 更多信息建议阅读[新手必会，pycharm的调试功能(史上最详篇)](https://zhuanlan.zhihu.com/p/62610785) 。
 
-下面是一段略微整理的引用：
-
-    F8：step over 执行当前代码，遇到函数不会跳进去。
-    F7：step into 也是执行当前代码，但是遇到函数后会跳进去。
-    Alt+Shift+F7 step into my code 与 F7 的区别在于，只跳入自己写的函数中，不会跳入源码（例如引用的库代码，内置函数代码等等）。
-    Shift+F8 step out 跳出当前函数体。
-    F9 Resume program 继续恢复程序，直接运行到下一断点处。
-
 # Part 1
 
 首先定义字符串变量，方便后续操作，含义就是字面意思。
@@ -43,9 +35,9 @@ EOF, INTEGER, PLUS = 'EOF', 'INTEGER', 'PLUS'
 
 ## 1. Token 类
 
-首先要明白编译原理中的 token 是什么。中文含义为标记。
+首先要明白编译原理中的 token 是什么，中文意思是标记。
 
-> 例如 1+2 中含有三个 token : 1, +, 2 。其中 1，2 的类型都是 INTEGER ，而 + 则是 PLUS 类型。
+> 例如 1+2 中含有三个 token : 1, +, 2 。其中 1，2 都是 INTEGER 类型，而 + 则是 PLUS 类型。
 
 那么抽象出来的 Token 类就会有类型和对应的值两个属性。构造函数如下：
 
@@ -60,9 +52,9 @@ class Token(object):
 
 更多魔法方法相关内容可查看：[英文版](https://rszalski.github.io/magicmethods/) / [中文版](https://pycoders-weekly-chinese.readthedocs.io/en/latest/issue6/a-guide-to-pythons-magic-methods.html) 。
 
-当使用 print 输出对象的时候，只要自己定义了__str__(self) 方法，那么就会打印从在这个方法中 return 的数据。
+当使用 print 输出对象的时候，只要自己定义了__str__(self) 方法，那么就会打印从在这个方法中 return 的数据。反之打印的则是对象的内存地址。
 
-除此之外 Token 类中还有两个函数。目的是为了方便调试，打印对象信息。因为如何不写该方法打印对象会直接输出对象的内存地址。
+除此之外 Token 类中还有两个函数。都是为了方便调试！
 
 ```python
     def __str__(self):
@@ -87,7 +79,7 @@ __str__ 实际上调用了 __repr__ 。
 
 ## 2. 主函数
 
-我觉得在描述解释器类之前有必要知晓流程，也就是主函数 `main` 。
+我觉得在描述解释器类之前有必要知晓流程，也就是主函数 main 。
 
 ```python
 def main():
@@ -219,7 +211,7 @@ class Interpreter():
 
 ```python
 EOF, PLUS, MINUS,INTEGER = 'EOF', 'PLUS', 'MINUS','INTEGER'
-···
+```
 
 如何处理略过空格的逻辑？
 

@@ -14,7 +14,7 @@
     </h1>
 
     <p class="author__intro">
-      来者犹可追
+      记录一些思考与总结。
     </p>
 
     <p class="author__links">
