@@ -47,3 +47,5 @@ terminal 也称终端，在终端中输入命令，shell 将命令发送给操�
 > 此时软链接的作用就体现出来了，创建软连接 foo 指向 foo-1 ，所有引用指向 foo 。当修改 foo-1 为 foo-2 时，只需要将 foo 指向 foo-2 即可。
 
 http://billie66.github.io/TLCL/book/chap08.html
+
+> 有时间再看，先暂停。
