@@ -1,12 +1,12 @@
 ---
-title: '编译器'
+title: '写一个 Pascal 解释器'
 date: 2021-02-13
 published: false
 slug: 22-lsbasi-summary
 tags: ['编译器','总结']
 cover_image: "./images/p22.jpg"
 canonical_url: false
-description: '动手写一个编译器！'
+description: 'lsbasi 项目的踩坑记录。'
 ---
 
 # 前言
@@ -193,7 +193,9 @@ class Interpreter():
 
 ```
 
-你可能会很疑惑为什么 eat 函数要加上 token_type 参数来做判断。说实话我第一次看到的时候也很迷惑，但是后续发现这样做很有必要！当然后续也会出现不做验证的 pos 递增函数。本质上是为了保证所写代码符合定义的文法。现在不理解也无妨，继续做下去就明白了。
+你可能会很疑惑为什么 eat 函数要加上 token_type 参数来做判断。说实话我第一次看到的时候也很迷惑，但是后续发现这样做很有必要！当然后续也会出现不做验证的 pos 递增函数。
+
+这样做的目的本质上是为了保证所写代码符合定义的文法。也就是来验证是否符号文法定义，否则就不按照该分支走。目前的文法很简单没有分支，所以感受不到存在的意义。但后续的文法会很复杂，存在多个分支，验证就显得很有必要了。现在不理解也无妨，继续做下去就明白了。
 
 完整代码：[part1](https://github.com/weijiew/lsbasi/blob/main/part1/calc1.py) 。
 
@@ -447,7 +449,7 @@ $$
 
 在抽象语法树中，根据文法的定义树节点存在不同类型。目前为止只有 BinOp 和 Num 两种类型。这两个类继承自 AST 类。这个仔细看 AST 的图示是可以明白的。也就是下面这张图，直接引用了。
 
-![](https://ruslanspivak.com/lsbasi-part7/lsbasi_part7_astimpl_01.png)
+![lsbasi_part7_astimpl_01](https://cdn.jsdelivr.net/gh/weijiew/pic@master/images/lsbasi_part7_astimpl_01.l5c82yvqss0.png)
 
 所以 BinOp 类存在左右两个节点以及两个节点的操作符三个参数，实现了两个操作数使用（加/减）。
 
@@ -490,12 +492,13 @@ $$
 
 我在写代码的时候感觉自己写的代码很乱，有必要看一下 Python 代码规范。
 
-下面是我参考的资源：[python 代码规程](https://google.github.io/styleguide/pyguide.html) / [中文版](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/)
+下面是我参考的资源：[Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) / [中文版](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/)
 
-这一节正式迈入了 Pascal 的大门，开始要处理与之相关的关键字了。之前的部分仅仅是算术表达式的处理，但这确是通用的。
+这一节正式迈入了 Pascal 的大门，开始要处理与之相关的关键字了。之前的部分仅仅是算术表达式的处理，但这却是通用的。
+
 这一节看起来虽然很多，但其实也很简单。首先结合了作者画的图来理解文法，然后将文法转换成代码即可。图很重要，建议多看几遍。梳理好逻辑后再开始写。
 
-除此之外这一节也开始引入符号表的雏形了。建议多花点时间来理解，多跑几个例子。
+除此之外这一节也开始引入符号表的雏形了。
 
 # Part 10 
 
@@ -508,7 +511,7 @@ $$
 
 # Part 11 
 
-这一节会有一些不理解的东西，Part 13 还会重新解释，不用担心。
+引入了符号表。这一节会有一些不理解的东西，Part 13 还会重新解释，不用担心。
 
 # Part 12
 
@@ -518,4 +521,15 @@ $$
 除了文中提到的改动，还在函数 _id 处做了一个大小写转换，小写关键字一律转为大写。不修改的话跑不起来。
 
 `token = RESERVED_KEYWORDS.get(result.upper(), Token(ID, result))`
+
+采用三个问题来引出要改动的内容。详细解释了 Part 11 的疑问。
+
+1. 符号表要收集什么内容？符号的名字，类型。
+2. 符号表如何存储？存放在队列中。
+3. 怎么搜集？按照访问者模式遍历 AST ，增加新的逻辑即可。
+
+这一节内容很长，耐着性子看吧，我在这一节花了不少时间。其实不难，需要耐心。
+
+# Part 14  
+
 

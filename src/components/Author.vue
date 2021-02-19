@@ -34,13 +34,6 @@
         style="color: var(--title-color);"
         ><font-awesome :icon="['fab', 'github']"
       /></a>
-      
-      <a
-        href="//www.zhihu.com/people/wei-jie-66-92"
-        target="_blank"
-        style="color: var(--title-color);"
-        ><font-awesome :icon="['fab', 'zhihu']"
-      /></a>
 
     </p>
   </div>
