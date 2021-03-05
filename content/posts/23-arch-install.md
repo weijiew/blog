@@ -2,7 +2,7 @@
 title: 'Arch 安装后的思考'
 date: 2021-03-05
 published: true
-slug: 23-arch-install.md
+slug: 23-arch-install
 tags: ['Linux','操作系统']
 cover_image: "./images/p23.jpg"
 canonical_url: false
