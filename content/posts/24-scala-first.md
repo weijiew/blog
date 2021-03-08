@@ -12,7 +12,7 @@ description: 'Scala 学习'
 ```note
 最近要学 Scala ，这门语言好像很厉害。正好发现了一门课。有 Java 基于
 
-[【大数据教程】scala入门到精通](https://www.bilibili.com/video/BV1DK4y1s7bm?p=48)
+[scala入门到精通](https://www.bilibili.com/video/BV1DK4y1s7bm?p=48)
 ```
 
 # 1. 和 Java 的区别
