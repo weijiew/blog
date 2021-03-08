@@ -95,7 +95,7 @@ Hell9
 scala> val num = for (i <- 1 to 10) yield i * 10
 val num: IndexedSeq[Int] = Vector(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 ```
-
+ 
 # 7. 惰性方法
 
 Java 可以通过懒汉式来实现。而 lazy 则是 scala 的原生关键字。
