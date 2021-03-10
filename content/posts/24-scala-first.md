@@ -101,9 +101,3 @@ val num: IndexedSeq[Int] = Vector(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 Java 可以通过懒汉式来实现。而 lazy 则是 scala 的原生关键字。
 
 lazy 不能修饰 var 变量，因为 var 变量可被修改，没有意义。
-
-
-https://www.bilibili.com/video/BV1DK4y1s7bm?p=52 
-
-截止到此处看了俩小时。很多东西其实可以直接跳过，主要看和 Java 的区别即可！
- 
