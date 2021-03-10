@@ -1,5 +1,5 @@
 ---
-title: 'Arch 安装后的思考'
+title: '初学 Scala'
 date: 2021-03-05
 published: true
 slug: 24-scala-first
