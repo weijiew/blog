@@ -9,23 +9,19 @@ canonical_url: false
 description: 'Scala 学习'
 ---
 
-```note
-最近要学 Scala ，这门语言好像很厉害。正好发现了一门课。有 Java 基于
-
-[scala入门到精通](https://www.bilibili.com/video/BV1DK4y1s7bm?p=48)
-```
-
-# 1. 和 Java 的区别
+# 1. Java 的区别
 
 Scala 程序的执行流程和 Java 类似，区别在于不仅可以调用 Java 库，自身还有一套库，最终都是跑在 JVM 上。
 
-# 2. var val
+Java 编译和解释结合。Scala 执行流程类似。
 
-var 可以理解为变量，初始化后可以随便修改。
+Java 面向对象，Scala 在此基础上增加了函数式，结合了面向对象和函数式。
 
-val 可以理解为常量，初始化后不能被修改。
+# 2. var and val
 
-如果不清楚后续到底是否被修改，建议优先使用 val 。
+var 引用可变，val 不可变，建议优先使用 val 。
+
+因为 Scala 是函数式编程语言，在函数中变量设定一个值后往往不会发生改变，基于此 val 实现了该功能。
 
 # 3. 惰性赋值
 
