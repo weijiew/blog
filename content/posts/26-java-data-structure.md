@@ -27,9 +27,8 @@ Vector 和 ArrayList 性质类似，但是为了保证线程安全速度略低�
 
 LinkList 内部维护了一个双向链表，增删快，查询慢，不带头结点。
 
-Set 接口分为 HashSet 和 TreeSet 两种实现方式。
+Set 接口分为 HashSet 和 TreeSet 两种实现方式。前者采用数组加链表加红黑树实现，后者直接采用红黑树，并且自动排序。
 
 # 参考
 
 1. [千锋教育-2020年最新版 Java集合框架详解 通俗易懂](https://www.bilibili.com/video/BV1zD4y1Q7Fw)
-
