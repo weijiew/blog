@@ -13,7 +13,7 @@ description: 'Scala 学习'
 
 Scala 程序的执行流程和 Java 类似，区别在于不仅可以调用 Java 库，自身还有一套库，最终都是跑在 JVM 上。
 
-Java 编译和解释结合。Scala 执行流程类似。
+Java 编译和解释结合。Scala 执行流程与其类似。
 
 Java 面向对象，Scala 在此基础上增加了函数式，结合了面向对象和函数式。
 
