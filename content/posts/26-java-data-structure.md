@@ -6,7 +6,7 @@ slug: 26-virtual
 tags: ['分布式']
 cover_image: "./images/p26.jpg"
 canonical_url: false
-description: '一次课堂分享，谈谈虚拟化。'
+description: '一次关于虚拟化的分享。'
 ---
 
 # 前言
