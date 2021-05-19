@@ -1,7 +1,7 @@
 ---
 title: '《王道机试指南》第二版 刷题记录'
-date: 2021-04-07
-published: false
+date: 2021-05-19
+published: true
 slug: 26-wd-alg
 tags: ['算法']
 cover_image: "./images/p26.jpg"

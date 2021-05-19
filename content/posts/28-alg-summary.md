@@ -1,7 +1,7 @@
 ---
 title: '刷题（算法）总结'
 date: 2021-04-08
-published: false
+published: true
 slug: 28-alg-summary.md
 tags: ['算法']
 cover_image: "./images/p28.jpg"
