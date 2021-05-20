@@ -13,7 +13,7 @@ description: '剑指 offer 刷题记录'
 
 判断闰年方法：是4的倍数但不是100的倍数，或者是400的倍数。
 
-闰年分为世纪闰年和普通闰年，前者是 400 的整数倍，后者是 4 的整数倍但不是 100 的整数倍。
+w闰年分为世纪闰年和普通闰年，前者是 400 的整数倍，后者是 4 的整数倍但不是 100 的整数倍。
 
 `if((y % 400 == 0) || (y % 4 == 0 && y % 100 != 0))`
 
@@ -24,7 +24,6 @@ description: '剑指 offer 刷题记录'
         Scanner sc = new Scanner(System.in);
         System.out.print(sc.nextBigInteger().add(sc.nextBigInteger()));
 ```
-
 
 http://lx.lanqiao.cn/problem.page?gpid=T7
 
