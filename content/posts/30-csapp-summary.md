@@ -33,7 +33,7 @@ description: '顶级索引，所有内容的总结。'
 
 所以不论你是什么系统，安装好 docker 后，后续步骤都相同。
 
-具体的环境搭建：https://cs.weijiew.com/book/csapp/lab0.html
+具体的环境搭建：
 
 # 4. 编程
 
